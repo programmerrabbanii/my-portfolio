@@ -11,7 +11,7 @@ const About = () => {
     return (
         <div>
             <div className="about-contant flex flex-col max-w-[1111px] mx-auto lg:flex-row justify-center  py-10 lg:py-24  text-white gap-20">
-                <div className="about-information px-5 lg:w-[50%] lg:px-0  salad">
+                <div className="about-information px-5 lg:w-[50%] lg:px-0  d">
                     <h2 className="text-5xl  font-bold">Hello! You're Welcome </h2>
                     <h3 className="text-2xl py-7">Professional Full-Stack Web Developer & WordPress Specialis</h3>
                     <p className="text-2xl">

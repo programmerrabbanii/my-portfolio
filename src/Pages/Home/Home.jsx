@@ -1,4 +1,5 @@
 import AboutSelf from "../../Components/AboutSelf/AboutSelf";
+import Contact from "../../Components/Contact/Contact";
 import Project from "../../Components/Project/Project";
 import Service from "../../Components/Services/Service";
 import Skills from "../../Components/Skills/Skills";
@@ -10,6 +11,7 @@ const Home = () => {
             <Service></Service>
             <Project></Project>
             <AboutSelf></AboutSelf>
+            <Contact></Contact>
            
            
             

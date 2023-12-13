@@ -53,7 +53,7 @@ const Service = () => {
           
           <div className="card-body">
             <h2 className="font-bold text-lg text-center">Different Layout & Responsive</h2>
-            <p>I will provide you different layout design website and full responsive that this website you see any pixel it's will all time right.</p>
+            <p>I will provide you different layout design website and full responsive that this website you see any pixel it is will all time right.</p>
             
           </div>
         </Tilt>

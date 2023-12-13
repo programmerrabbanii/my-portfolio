@@ -15,13 +15,13 @@ const About = () => {
                     <h2 className="text-5xl  font-bold">Hello! You're Welcome </h2>
                     <h3 className="text-2xl py-7">Professional Full-Stack Web Developer & WordPress Specialis</h3>
                     <p className="text-2xl">
-                    I’m Ariful Islam Passionate at web development. I’m working minimum of 13-14 hours every day, I love to do this it’s my life-everything. My goal is to satisfy clients, try to understand what they want for there website, help them from beginning to end the project and give support for every problem. If need I communicate by video or audio conversations to understand the problems and project requirements. After completing website and projects I give instructions, How they can manage, edit, update, add page and post on the website by themselves. if needed I send video tutorials.
+                    I’m Rabbani Sarkar Passionate at web development. I’m working minimum of 13-14 hours every day, I love to do this it’s my life-everything. My goal is to satisfy clients, try to understand what they want for there website, help them from beginning to end the project and give support for every problem. If need I communicate by video or audio conversations to understand the problems and project requirements. After completing website and projects I give instructions, How they can manage, edit, update, add page and post on the website by themselves. if needed I send video tutorials.
 
                     </p>
                     <button className="btn btn-primary hover:border-2 border-white mt-5">Contact me</button>
                 </div>
                 <div className="about-box w-[50%]">
-                    <div className="box-inner flex  ">
+                    <div className="box-inner flex flex-col lg:flex-row  ">
                         <Tilt  className="box-one text-center roun bg-[#151030] p-6 m-4 rounded-lg border-2 border-[#4A00FF]">
                         <CiLaptop className="text-8xl mx-auto" />
                           <h3 className="text-2xl">Quality</h3>
@@ -40,7 +40,7 @@ const About = () => {
                         </Tilt>
                     </div>
 
-                    <div className="box-inner flex gap-8">
+                    <div className="box-inner flex flex flex-col lg:flex-row   gap-8">
                         <Tilt className="box-one   rounded-lg box-one box-one text-center roun bg-[#151030] p-6 m-4 border-2 border-[#4A00FF]  ">
                         <CiLock className="text-8xl mx-auto" />
                           <h3 className="text-2xl">security& safety</h3> 

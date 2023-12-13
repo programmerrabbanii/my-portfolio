@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.image-hover-effect {
+    object-fit: cover;
+    
+  }
+  
+ 

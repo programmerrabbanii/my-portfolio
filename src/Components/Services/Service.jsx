@@ -4,6 +4,7 @@ import { DiResponsive } from "react-icons/di";
 import { LuShoppingBag } from "react-icons/lu";
 import { IoBugOutline } from "react-icons/io5";
 import { GrSystem } from "react-icons/gr";
+import { Tilt } from "react-tilt";
 
 
 
@@ -20,7 +21,7 @@ const Service = () => {
       {/* card b0x */}
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:grid-cols-3">
-        <div className="card card-compact   bg-black text-white py-11 px-4 text-center shadow-xl border-2 border-[#4A00FF]">
+        <Tilt className="card card-compact   bg-black text-white py-11 px-4 text-center shadow-xl border-2 border-[#4A00FF]">
             <GiServerRack className="mx-auto text-8xl "/>
           
           <div className="card-body">
@@ -28,8 +29,8 @@ const Service = () => {
             <p>I will design and redesign any type of website for your business. I provide a unique, clean & awesome graphical design interface.</p>
             
           </div>
-        </div>
-        <div className="card card-compact   bg-black text-white py-11 px-4 text-center shadow-xl border-2 border-[#4A00FF]">
+        </Tilt>
+        <Tilt className="card card-compact   bg-black text-white py-11 px-4 text-center shadow-xl border-2 border-[#4A00FF]">
             <GrSystem className="mx-auto text-8xl "/>
           
           <div className="card-body">
@@ -37,8 +38,8 @@ const Service = () => {
             <p>Slow loading website it’s the biggest problem for every website. I can boost your website’s speed by optimization your website. And if you don’t have time to maintain your website don’t worry I’m here.</p>
             
           </div>
-        </div>
-        <div className="card card-compact   bg-black text-white py-11 px-4 text-center shadow-xl border-2 border-[#4A00FF]">
+        </Tilt>
+        <Tilt className="card card-compact   bg-black text-white py-11 px-4 text-center shadow-xl border-2 border-[#4A00FF]">
             <MdDesignServices className="mx-auto text-8xl "/>
           
           <div className="card-body">
@@ -46,8 +47,8 @@ const Service = () => {
             <p>The unique design is very important for every website. You and your customer seeing this website will be very fascinated.</p>
             
           </div>
-        </div>
-        <div className="card card-compact   bg-black text-white py-11 px-4 text-center shadow-xl border-2 border-[#4A00FF]">
+        </Tilt>
+        <Tilt className="card card-compact   bg-black text-white py-11 px-4 text-center shadow-xl border-2 border-[#4A00FF]">
             <DiResponsive className="mx-auto text-8xl "/>
           
           <div className="card-body">
@@ -55,8 +56,8 @@ const Service = () => {
             <p>I will provide you different layout design website and full responsive that this website you see any pixel it's will all time right.</p>
             
           </div>
-        </div>
-        <div className="card card-compact   bg-black text-white py-11 px-4 text-center shadow-xl border-2 border-[#4A00FF]">
+        </Tilt>
+        <Tilt className="card card-compact   bg-black text-white py-11 px-4 text-center shadow-xl border-2 border-[#4A00FF]">
             <LuShoppingBag className="mx-auto text-8xl "/>
           
           <div className="card-body">
@@ -64,8 +65,8 @@ const Service = () => {
             <p>I can create a fully functional online store with any type of payment gateway support and add shopping cart functionality into you’re existing website with your any required.</p>
             
           </div>
-        </div>
-        <div className="card card-compact   bg-black text-white py-11 px-4 text-center shadow-xl border-2 border-[#4A00FF]">
+        </Tilt>
+        <Tilt className="card card-compact   bg-black text-white py-11 px-4 text-center shadow-xl border-2 border-[#4A00FF]">
             <IoBugOutline className="mx-auto text-8xl "/>
           
           <div className="card-body">
@@ -75,7 +76,7 @@ const Service = () => {
 </p>
             
           </div>
-        </div>
+        </Tilt>
       </div>
     </div>
   );

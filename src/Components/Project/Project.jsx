@@ -1,5 +1,9 @@
 import { Link } from 'react-router-dom';
-import projecone from '../../assets/projectone.png'
+import projectone from '../../assets/projectimg/projectone.png'
+import projecttwo from '../../assets/projectimg/projecttwo.png'
+import projecttherr from '../../assets/projectimg/project3.png'
+
+
 const Project = () => {
   return (
     <div>
@@ -9,36 +13,37 @@ const Project = () => {
       </div>
 
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
-        <div className="card w-96 bg-black text-white">
+        <div className="card md:w-96 w-full bg-black text-white">
           <figure>
-            <img className='h-[200px] bg-cover w-full'
-              src={projecone} 
+            <img className='h-[200px] bg-cover over w-full'
+              src={projectone} 
               alt="car!"
             />
           </figure> 
           <div className="card-body">
-            <h2 className="card-title">Life hack</h2>
-            <p>How to park your car at your garage?</p>
+            <h2 className="card-title">Food made with love</h2>
+            <p>Welcome To Our Restaurant, I Hope We Can Give You Good Service</p>
             <div className="card-actions justify-end">
-              <Link to='/'>
+              <Link to='https://assingment-eleven.web.app/'>
               <button className=" rounded-full border-2 py-2 px-14 mt-5  border-[#4A00FF] shadow-2xl">Live Link</button>
               </Link>
             </div>
           </div>
         </div>
 
-        <div className="card w-96 bg-black text-white">
+        <div className="card md:w-96 w-full  bg-black text-white">
           <figure>
             <img className='h-[200px] bg-cover w-full'
-              src={projecone} 
+              src={projecttwo} 
               alt="car!"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Life hack</h2>
-            <p>How to park your car at your garage?</p>
+            <h2 className="card-title"> Parcel management software</h2>
+            <p>Simplify the simplify the parcel management process, log incoming
+              mail, outgoing parcels and and digitise your parcel management process</p>
             <div className="card-actions justify-end">
-              <Link to='/'>
+              <Link to='https://assingmenttwelve.web.app/'>
               <button className=" rounded-full border-2 py-2 px-14 mt-5  border-[#4A00FF] shadow-2xl">Live Link</button>
               </Link>
             </div>
@@ -46,18 +51,18 @@ const Project = () => {
         </div>
 
 
-        <div className="card w-96 bg-black text-white">
+        <div className="  card md:w-96 w-full bg-black text-white">
           <figure>
-            <img className='h-[200px] bg-cover w-full'
-              src={projecone} 
+            <img className=' image-hover-effect h-[200px] bg-cover w-full'
+              src={projecttherr} 
               alt="car!"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Life hack</h2>
+            <h2 className="card-title">digital products</h2>
             <p>How to park your car at your garage?</p>
             <div className="card-actions justify-end">
-              <Link to='/'>
+              <Link to='https://programmerrabbanii.github.io/digital-products/'>
               <button className=" rounded-full border-2 py-2 px-14 mt-5  border-[#4A00FF] shadow-2xl">Live Link</button>
               </Link>
             </div>

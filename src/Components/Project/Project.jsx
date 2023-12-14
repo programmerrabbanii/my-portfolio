@@ -38,7 +38,7 @@ const Project = () => {
 
         <div className="card md:w-96 w-full  bg-black text-white">
           <figure>
-            <img
+            <img 
               className="h-[200px] bg-cover w-full"
               src={projecttwo}
               alt="car!"

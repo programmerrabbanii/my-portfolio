@@ -11,11 +11,11 @@ const AboutSelf = () => {
           />
           <div> 
             <h1 className=" text-2xl lg:text-5xl font-bold py-8 ">Personal information</h1>
-            <p><span className='font-bold uppercase'>Address:</span>Dhaka Bangladesh</p>
-            <p className='text-lg mt-2'><span className='font-bold uppercase'>NAME:</span> Golam Rabbani Sarkar </p>
-            <p className='text-lg mt-2'><span  className='font-bold uppercase'>Phone:</span>+880 179 8950 302</p>
-            <p className='text-lg mt-2'><span className='font-bold uppercase'>Email:</span>rabbanisarkar642@gmail.com</p>
-            <p className='text-lg mt-2'><span className='font-bold uppercase'>Langages:</span> Bengali, English Arabic (Basic), Hindi (Basic)
+            <p><span className='font-bold uppercase'>Name: Golam Rabbani Sarkar</span></p>
+            <p className='text-lg mt-2'><span className='font-bold uppercase'>Address: Dhaka Bangladesh</span>  </p>
+            <p className='text-lg mt-2'><span  className='font-bold uppercase'>Phone: </span>+880 179 8950 302</p>
+            <p className='text-lg mt-2'><span className='font-bold uppercase'>Email: </span>rabbanisarkar642@gmail.com</p>
+            <p className='text-lg mt-2'><span className='font-bold uppercase'>Langages: </span> Bengali, English Arabic (Basic), Hindi (Basic)
                                                       </p>
             <p></p>
            

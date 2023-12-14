@@ -10,7 +10,7 @@ const Navbar = () => {
     
     
     <li className="uppercase ml-2 font-lg">
-    <NavLink to="/addproduct">About</NavLink>
+    <NavLink  to="/addproduct">About</NavLink>
    </li>
    <li className="uppercase ml-2 font-lg">
     <NavLink to="/addcard"> Experience</NavLink>
@@ -21,7 +21,7 @@ const Navbar = () => {
    </li>
 
    <li className="uppercase ml-2 font-lg">
-    <NavLink to="/addcard"> Skils</NavLink>
+    <NavLink id="skills" to="/addcard"> Skils</NavLink>
    </li>
 
    <li className="uppercase ml-2 font-lg">

@@ -2,7 +2,7 @@
 const Contact = () => {
   return (
     <div >
-      <h3 className="  text-center text-white text-4xl my-11 ">Contant Me</h3>
+      <h3 className="  text-center text-white text-4xl my-11 ">Contact Me</h3>
 
       <div className="contant-main flex items-center flex-col lg:flex-row gap-8 ">
         <div className="contact-map ">

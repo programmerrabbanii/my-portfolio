@@ -22,7 +22,7 @@ import { FaFilePowerpoint } from "react-icons/fa";
 
 
 
-const Skills = () => {
+const  Skills = () => {
   return (
     <div>
      <div className="text-white  text-center ">

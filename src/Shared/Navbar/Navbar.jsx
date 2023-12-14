@@ -10,22 +10,22 @@ const Navbar = () => {
     
     
     <li className="uppercase ml-2 font-lg">
-    <NavLink  to="/addproduct">About</NavLink>
+    <a href="#about">About</a>
    </li>
    <li className="uppercase ml-2 font-lg">
-    <NavLink to="/addcard"> Experience</NavLink>
-   </li>
-
-   <li className="uppercase ml-2 font-lg">
-    <NavLink to="/addcard"> Portfolio</NavLink>
+    <a href="#servics"> Servics</a>
    </li>
 
    <li className="uppercase ml-2 font-lg">
-    <NavLink id="skills" to="/addcard"> Skils</NavLink>
+    <a href="#project" to="/addcard"> Project</a>
    </li>
 
    <li className="uppercase ml-2 font-lg">
-    <NavLink to="/addcard"> Contact</NavLink>
+    <a href="#skills" > Skills</a>
+   </li>
+
+   <li className="uppercase ml-2 font-lg">
+    <a  href="#contact"> Contact</a>
    </li>
     </>
   

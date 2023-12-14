@@ -6,7 +6,7 @@ import projecttherr from "../../assets/projectimg/project3.png";
 
 const Project = () => {
   return (
-    <div>
+    <div id="project">
       <div className="text-center text-white mt-24">
         <h4>Latest Works</h4>
         <h2 className="text-2xl mb-6">Our Recent Projects</h2>

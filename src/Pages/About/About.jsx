@@ -9,7 +9,7 @@ import { MdOutlineSupportAgent } from "react-icons/md";
 
 const About = () => {
     return (
-        <div>
+        <div id="about">
             <div className="about-contant flex flex-col max-w-[1111px] mx-auto lg:flex-row justify-center  py-10 lg:py-24  text-white gap-20">
                 <div className="about-information px-5 lg:w-[50%] lg:px-0  d">
                     <h2 className="text-5xl  font-bold">Hello! You are Welcome </h2>

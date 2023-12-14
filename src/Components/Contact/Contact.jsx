@@ -1,7 +1,7 @@
 // import animation from '../../assets/projectimg/Animation - 1702472183100.gif'
 const Contact = () => {
   return (
-    <div >
+    <div id="contact" >
       <h3 className="  text-center text-white text-4xl my-11 ">Contact Me</h3>
 
       <div className="contant-main flex items-center flex-col lg:flex-row gap-8 ">

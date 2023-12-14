@@ -24,7 +24,7 @@ import { FaFilePowerpoint } from "react-icons/fa";
 
 const  Skills = () => {
   return (
-    <div>
+    <div id="skills"> 
      <div className="text-white  text-center ">
      <h2 className="text-3xl py-3">Skills</h2>
       <h4 className="text-base">

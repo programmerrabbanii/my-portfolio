@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import navbarlogo from '../../assets/projectimg/alllogo.png'
+import resume from'../../../src/assets/projectimg/resume.pdf'
 
 const Navbar = () => {
     const navbar=<>
@@ -59,7 +60,21 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Download CV</a>
+
+    {/* <a href={resume} download="download resume"  className="btn">Download CV</a> */}
+
+    <a href={resume} download=" rabbanir  Resume">
+          <button className="c-button  c-button--gooey  text-sm  rounded-2xl">
+            {" "}
+            Download Resume
+            <div className="c-button__blobs  rounded-xl">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </button> 
+        </a>
+
   </div>
 </div>
             

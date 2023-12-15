@@ -1,7 +1,7 @@
 // import animation from '../../assets/projectimg/Animation - 1702472183100.gif'
 const Contact = () => {
   return (
-    <div id="contact" >
+    <div  id="contact" >
       <h3 className="  text-center text-white text-4xl my-11 ">Contact Me</h3>
 
       <div className="contant-main flex items-center flex-col lg:flex-row gap-8 ">
@@ -26,7 +26,10 @@ const Contact = () => {
           <form>
             <input className="w-[500px] mt-2 p-2 px-2" type="text" name="name" placeholder="Type Your Name" /> <br />
             <input className="w-full my-2 py-2 px-2" type="email" name="email" placeholder="Type Your Email" /><br />
-            <textarea className="w-full py-2 px-2" name="" id="" cols="30" rows="10" placeholder="Type Your Comment "></textarea>
+            <textarea className="w-full pt-2 px-2" name="" id="" cols="30" rows="10" placeholder="Type Your Comment "></textarea>
+
+            <input className=" w-full  p-2 px-2 cursor-pointer hover:bg-gray-500" type="submit" value="SUBMIT"/>
+            
           </form>
         </div>
       </div>

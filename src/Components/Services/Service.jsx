@@ -15,7 +15,7 @@ const Service = () => {
   return (
     <div id="servics">
       <div className="text-center text-white my-16">
-        <h3 className="text-4xl py-2">Sevices</h3>
+        <h3 className="text-4xl py-2">Servics</h3>
         <h4>What i do for buyer</h4>
       </div>
       {/* card b0x */}

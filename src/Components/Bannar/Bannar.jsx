@@ -14,8 +14,21 @@ const Bannar = () => {
 </h1>
       <p className="py-6">Junior Frontend Developer with a passion for Web Applications <br /> Development. Passionate about learning new <br /> technologies. Seeking opportunities and <br /> challenges that will improve my skill set.
 .</p>
-      <button className="btn btn-primary hover:border-2 border-white"> <FaEnvelope />
- Contacat Me</button>
+      {/* <a href='#contact' className="btn btn-primary hover:border-2 border-white"> <FaEnvelope />
+ Contacat Me</a> */}
+       
+       <a href="#contact">
+          <button className="c-button  c-button--gooey  text-sm  rounded-2xl">
+            {" "}
+            Contact ME
+            <div className="c-button__blobs  rounded-xl">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </button> 
+        </a>
+
     </div>
   </div>
 </div>

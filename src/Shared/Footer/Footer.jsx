@@ -16,7 +16,7 @@ const Footer = () => {
       
    
 
-<div className="footericons text-white py-10 ">
+<div className="footericons text-white py-10 px-3 ">
     <h4 className='text-center'> <p>Copyright © 2021 - All right reserved by Dev Rabbani Sarkar</p></h4>
 <div className='flex justify-center mt-5'>
 

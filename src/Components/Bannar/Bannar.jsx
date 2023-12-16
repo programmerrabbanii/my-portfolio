@@ -6,7 +6,7 @@ const Bannar = () => {
         <div>
           
 
-<div className="hero min-h-screen bg-[#1F2937] text-white pt-16 lg:pt-0  ">
+<div className="hero w-full min-h-screen bg-[#1F2937] text-white pt-16 lg:pt-0  ">
   <div className="hero-content flex-col lg:flex-row-reverse md:gap-64 ">
     <img  src={bannarr} className="max-w-sm rounded-full border-8  border-[#4A00FF] shadow-2xl " />
     <div >
@@ -18,7 +18,7 @@ const Bannar = () => {
  Contacat Me</a> */}
        
        <a href="#contact">
-          <button className="c-button  c-button--gooey  text-sm  rounded-2xl">
+          <button className=" btn c-button  c-button--gooey  text-sm  rounded-2xl">
             {" "}
             Contact ME
             <div className="c-button__blobs  rounded-xl">

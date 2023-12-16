@@ -28,7 +28,7 @@ const About = () => {
           {/* <a href="#contact"className="btn btn-primary hover:border-2 border-white mt-5">Contact me</a> */}
 
           <a href="#contact">
-            <button className="c-button  c-button--gooey  text-sm  rounded-2xl">
+            <button className=" btn  mt-8 c-button  c-button--gooey  text-sm  rounded-2xl">
               {" "}
               Contact ME
               <div className="c-button__blobs  rounded-xl">

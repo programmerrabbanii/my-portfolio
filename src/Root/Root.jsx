@@ -7,7 +7,7 @@ import Footer from "../Shared/Footer/Footer";
 const  Root = () => {
     return (
        <div className="bg-[#1F2937]">
-         <div className=" max-w-[1160px] mx-auto">
+         <div className=" lg:w-full max-w-[1160px] mx-auto">
             <Navbar></Navbar>
             <Bannar></Bannar>
             <About></About>

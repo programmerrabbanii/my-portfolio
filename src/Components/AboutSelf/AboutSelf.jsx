@@ -1,7 +1,7 @@
 import aboutlogo from '../../assets/aboutlogo.jpg'
 const AboutSelf = () => {
   return (
-    <div>
+    <div className='w-full'>
       <h2 className='text-white w-[1260pxx] text-4xl py-10 text-center'> About my self</h2>
       <div className=" text-white hero min-h-screen bg-black">
         <div className="hero-content flex-col lg:flex-row-reverse">
